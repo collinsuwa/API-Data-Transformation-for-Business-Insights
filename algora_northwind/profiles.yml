@@ -1,0 +1,12 @@
+algora_northwind:
+  outputs:
+    dev:
+      dbname: northwind_api
+      host: localhost
+      pass: '@perfection9'
+      port: 5432
+      schema: staging
+      threads: 4
+      type: postgres
+      user: postgres
+  target: dev
