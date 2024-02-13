@@ -43,6 +43,8 @@ SELECT
 	sE.region AS employeeRegion,
 	sE.country AS employeeCountry,
 	sE."postalCode" AS employeePostalCode,
+	sE.photo AS employeePhoto,
+	sE."photoPath" AS employeePhotoPath,
 	sR."regionId",
 	sR."regionDescription",
 	sh."shipperId",
