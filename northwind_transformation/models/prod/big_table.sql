@@ -54,27 +54,27 @@ SELECT
 	sT."territoryDescription"
 FROM
     {{ ref('stgOrders') }} o
-LEFT JOIN
+FULL OUTER JOIN
     {{ ref('stgOrderDetails') }} od
 ON 
 	o."orderId" = od."orderID"
-LEFT JOIN
+FULL OUTER JOIN
 	{{ ref('stgProducts') }} sP
 ON 
 	od."productID" = sP."productId"
-LEFT JOIN
+FULL OUTER JOIN
 	{{ ref('stgSuppliers') }} sSu
 ON 
 	sSu."supplierId" = sP."supplierId"
-LEFT JOIN
+FULL OUTER JOIN
 	{{ ref('stgCustomers') }} sC
 ON 
 	sC."customerId" = o."customerId"	
-LEFT JOIN
+FULL OUTER JOIN
 	{{ ref('stgCategories') }} sCa
 ON 
 	sCa."categoryId" = sP."categoryId"
-LEFT JOIN
+FULL OUTER JOIN
 	{{ ref('stgEmployees') }} sE
 ON 
 	sE."employeeId" = o."employeeId"
