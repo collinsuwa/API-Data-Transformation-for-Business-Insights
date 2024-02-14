@@ -3,6 +3,7 @@ SELECT
 	o."orderDate",
 	o."shippedDate",
 	o."requiredDate",
+	o."shipVia" AS shipperId,
 	o.freight,
 	o."shipName",
 	o."shipCity",
