@@ -1,7 +1,7 @@
 # Northwind Traders 
 I recently spearheaded a project aimed at constructing a streamlined Business Intelligence solution for Northwind Traders. Leveraging the power of dbt (Data Build Tools) core, alongside PostgreSQL, Microsoft PowerPoint, and Power BI, i transformed raw data into actionable insights.
 
-## Goal
+## Task
 1. Extract data from Northwind API and store raw data in Postgres
 2. Use DBT to transform raw data as per business specification and store transformed data in postgreSQL
 3. Create a dashboard in PowerBI to guide Business decisions
