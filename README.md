@@ -4,7 +4,7 @@ I recently spearheaded a project aimed at constructing a streamlined Business In
 ## Task
 1. Extract data from Northwind API and store raw data in Postgres
 2. Use DBT to transform raw data as per business specification and store transformed data in postgreSQL
-3. Create a dashboard in PowerBI to guide Business decisions
+3. Create a dashboard in PowerBI to guide Business decisions.
 
 Let's dive into the process:
 ### 📊 Data Extraction:
